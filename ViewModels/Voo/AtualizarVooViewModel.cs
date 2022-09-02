@@ -9,7 +9,9 @@ namespace VoeAirlines.ViewModels.Voo
         public int AeronaveId { get; set; }
         public int PilotoId { get; set; }
 
-        public AtualizarVooViewModel(string origem, string destino, DateTime dataHoraPartida, DateTime dataHoraChegada, int aeronaveId, int pilotoId)
+        public int VooId {get; set;}
+
+        public AtualizarVooViewModel(int vooId,string origem, string destino, DateTime dataHoraPartida, DateTime dataHoraChegada, int aeronaveId, int pilotoId)
         {
             Origem = origem;
             Destino = destino;
@@ -17,6 +19,7 @@ namespace VoeAirlines.ViewModels.Voo
             DataHoraChegada = dataHoraChegada;
             AeronaveId = aeronaveId;
             PilotoId = pilotoId;
+            VooId = vooId;
         }
     }
 }

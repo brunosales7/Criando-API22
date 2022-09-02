@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\source\\repos\\CriandoAPI2\\CriandoAPI2\\CriandoAPI2.csproj": {}
+    "C:\\Users\\Aluno\\source\\repos\\CriandoAPI3\\CriandoAPI2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\source\\repos\\CriandoAPI2\\CriandoAPI2\\CriandoAPI2.csproj": {
+    "C:\\Users\\Aluno\\source\\repos\\CriandoAPI3\\CriandoAPI2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\source\\repos\\CriandoAPI2\\CriandoAPI2\\CriandoAPI2.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\source\\repos\\CriandoAPI3\\CriandoAPI2.csproj",
         "projectName": "CriandoAPI2",
-        "projectPath": "C:\\Users\\Aluno\\source\\repos\\CriandoAPI2\\CriandoAPI2\\CriandoAPI2.csproj",
+        "projectPath": "C:\\Users\\Aluno\\source\\repos\\CriandoAPI3\\CriandoAPI2.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\source\\repos\\CriandoAPI2\\CriandoAPI2\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\source\\repos\\CriandoAPI3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,15 +40,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "DinkToPdfCopyDependencies": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,7 +1,7 @@
 using VoeAirlines.Contexts;
 using VoeAirlines.Entities;
-
 using VoeAirlines.ViewModels.Cancelamento;
+using VoeAirlines.ViewModels;
 
 namespace VoeAirlines.Services
 {
